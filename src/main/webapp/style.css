@@ -1,0 +1,54 @@
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+.navbar {
+    background: #6a1b9a;
+    padding: 14px 24px;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.navbar a:hover { text-decoration: underline; }
+.container {
+    max-width: 950px;
+    margin: 24px auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+h2 { margin-top: 0; color: #6a1b9a; }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 14px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+}
+th { background: #f0e6f7; color: #4a148c; }
+tr:nth-child(even) { background: #fafafa; }
+form.filter-form {
+    margin-bottom: 10px;
+}
+form.filter-form select, form.filter-form input, form.filter-form button {
+    padding: 6px 10px;
+    margin-right: 8px;
+}
+form.filter-form button {
+    background: #6a1b9a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.empty-msg { color: #888; font-style: italic; }
