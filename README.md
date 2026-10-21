@@ -1,4 +1,4 @@
-# OfflineSalesRPA - Corrected Project
+# OfflineSalesRPA - Project
 
 This version fixes the missing dependency/project-configuration problem in the original ZIP and also fixes the trigger logic so a database error does not incorrectly advance S1 -> S2.
 
